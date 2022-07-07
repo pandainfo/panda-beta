@@ -1,0 +1,36 @@
+# Application
+web/app/plugins/*
+!web/app/plugins/.gitkeep
+web/app/mu-plugins/*
+!web/app/mu-plugins/.gitkeep
+web/app/themes/*
+!web/app/themes/.gitkeep
+web/app/upgrade/*
+!web/app/upgrade/.gitkeep
+web/app/uploads/*
+!web/app/uploads/.gitkeep
+web/app/cache/*
+!web/app/cache/.gitkeep
+web/app/languages
+!web/app/languages/.gitkeep
+web/app/aiowps_backups
+
+# Core
+web/wp
+!web/wp/.gitkeep
+web/.htaccess
+
+# Logs
+*.log
+
+# Dotenv
+.env
+.env.*
+!.env.example
+
+# Composer
+vendor/*
+!vendor/.gitkeep
+
+# CLI
+wp-cli.local.yml

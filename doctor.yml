@@ -1,0 +1,5 @@
+plugin-w3-total-cache:
+  check: Plugin_Status
+  options:
+    name: w3-total-cache
+    status: uninstalled
