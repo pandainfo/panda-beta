@@ -105,6 +105,12 @@ Config::define('DISALLOW_FILE_MODS', true);
 // Limit the number of post revisions that Wordpress stores (true (default WP): store every revision)
 Config::define('WP_POST_REVISIONS', env('WP_POST_REVISIONS') ?: true);
 
+/** 
+ * SMTP Settings 
+ */ 
+Config::define('FLUENTMAIL_SMTP_USERNAME', env('FLUENTMAIL_SMTP_USERNAME'));
+Config::define('FLUENTMAIL_SMTP_PASSWORD', env('FLUENTMAIL_SMTP_PASSWORD'));
+
 /**
  * Debugging Settings
  */
