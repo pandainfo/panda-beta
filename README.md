@@ -1,106 +1,160 @@
 <p align="center">
-  <a href="https://roots.io/bedrock/">
-    <img alt="Bedrock" src="https://cdn.roots.io/app/uploads/logo-bedrock.svg" height="100">
+  <a href="https://github.com/pandainfo/panda-beta">
+    <img alt="Panda" src="https://avatars2.githubusercontent.com/u/48161788?s=200&v=4" height="100">
   </a>
 </p>
 
 <p align="center">
-  <a href="LICENSE.md">
-    <img alt="MIT License" src="https://img.shields.io/github/license/roots/bedrock?color=%23525ddc&style=flat-square" />
-  </a>
-
-  <a href="https://packagist.org/packages/roots/bedrock">
-    <img alt="Packagist" src="https://img.shields.io/packagist/v/roots/bedrock.svg?style=flat-square" />
-  </a>
-
-  <a href="https://github.com/roots/bedrock/actions/workflows/ci.yml">
-    <img alt="Build Status" src="https://img.shields.io/github/workflow/status/roots/bedrock/CI?style=flat-square" />
-  </a>
-
-  <a href="https://twitter.com/rootswp">
-    <img alt="Follow Roots" src="https://img.shields.io/twitter/follow/rootswp.svg?style=flat-square&color=1da1f2" />
-  </a>
+  <strong>stay radical!  🐼  read books!  📚</strong>
+  <br />
+  Built in Vienna with ❤️
 </p>
 
-<p align="center">
-  <strong>A modern WordPress stack</strong>
-</p>
+> **ATTENTION: This project is still in beta stage, so things are open for change.**
 
-<p align="center">
-  <a href="https://roots.io/"><strong><code>Website</code></strong></a> &nbsp;&nbsp; <a href="https://docs.roots.io/bedrock/master/installation/"><strong><code>Documentation</code></strong></a> &nbsp;&nbsp; <a href="https://github.com/roots/bedrock/releases"><strong><code>Releases</code></strong></a> &nbsp;&nbsp; <a href="https://discourse.roots.io/"><strong><code>Support</code></strong></a>
-</p>
+<!--
+[![AGPL-3.0 License](https://flat.badgen.net/github/license/pandainfo/panda-beta)](COPYING)
+[![Latest Version](https://flat.badgen.net/packagist/v/pandainfo/panda-beta)](https://packagist.org/packages/pandainfo/panda-beta)
+[![Build Status](https://flat.badgen.net/github/checks/pandainfo/panda-beta?label=build&icon=github)](https://github.com/pandainfo/panda-beta/actions)
+[![Monthly Downloads](https://flat.badgen.net/packagist/dm/pandainfo/panda-beta)](https://packagist.org/packages/pandainfo/panda-beta/stats)
+ -->
+[![PHP Composer](https://github.com/pandainfo/panda-beta/workflows/PHP%20Composer/badge.svg)](https://github.com/pandainfo/panda-beta/actions?query=workflow%3A%22PHP+Composer%22)
+[![Follow @redtux](https://flat.badgen.net//twitter/follow/redtux)](https://twitter.com/redtux)
 
-## Supporting
+# Welcome to Panda
 
-**Bedrock** is an open source project and completely free to use.
+**[Panda](https://github.com/pandainfo/panda)** aims to provide a modern new generation CRM, ERP &
+CMS with [ONIX] and [VLB] support for selling, merchandising and searching books and digital media.
 
-However, the amount of effort needed to maintain and develop new features and products within the Roots ecosystem is not sustainable without proper financial backing. If you have the capability, please consider donating using the links below:
+[ONIX]: https://en.wikipedia.org/wiki/ONIX_for_Books "ONIX for Books on Wikipedia"
+[VLB]: https://de.wikipedia.org/wiki/Verzeichnis_Lieferbarer_Bücher "Verzeichnis Lieferbarer Bücher on Wikipedia"
 
-<div align="center">
+> **Powered by**
 
-[![Sponsor on GitHub](https://img.shields.io/static/v1?label=sponsor&message=%E2%9D%A4&logo=GitHub&style=flat-square)](https://github.com/sponsors/roots)
-[![Sponsor on Patreon](https://img.shields.io/badge/sponsor-patreon-orange.svg?style=flat-square&logo=patreon")](https://www.patreon.com/rootsdev)
-[![Donate via PayPal](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square&logo=paypal)](https://www.paypal.me/rootsdev)
+* [![Build Status](https://img.shields.io/github/stars/roots/bedrock.svg?style=flat-square)](https://github.com/roots/bedrock) [**Bedrock**](https://roots.io/bedrock/)
+* [![Build Status](https://img.shields.io/github/stars/WordPress/WordPress.svg?style=flat-square)](https://github.com/WordPress/WordPress) [**WordPress Core**](https://make.wordpress.org/core/components/)
 
-</div>
+For full documentation visit the [docs] pages.
 
-## Overview
+[docs]: https://pandainfo.github.io/community/ "Panda Docs"
 
-Bedrock is a modern WordPress stack that helps you get started with the best development tools and project structure.
+---
 
-Much of the philosophy behind Bedrock is inspired by the [Twelve-Factor App](http://12factor.net/) methodology including the [WordPress specific version](https://roots.io/twelve-factor-wordpress/).
+> **Table of contents**
 
-## Features
+1. [About](#about)
+2. [Contributing](#contributing)
+3. [TODOs](#todos)
+4. [Authors](#authors)
+5. [Licensing](#licensing)
 
-- Better folder structure
-- Dependency management with [Composer](https://getcomposer.org)
-- Easy WordPress configuration with environment specific files
-- Environment variables with [Dotenv](https://github.com/vlucas/phpdotenv)
-- Autoloader for mu-plugins (use regular plugins as mu-plugins)
-- Enhanced security (separated web root and secure passwords with [wp-password-bcrypt](https://github.com/roots/wp-password-bcrypt))
+## About
 
-## Requirements
+> **PANDA – NEXT GENERATION E-COMMERCE PLATFORM**
 
-- PHP >= 7.4
-- Composer - [Install](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx)
+Panda integrates several components in one system.
 
-## Installation
+* [ ] **eCommerce:** Buying and searching books on the Panda Store 2.0
+* [ ] **OMS:** Making your customers happy with Panda Order Management
+* [ ] **DMS:** Organizing all paperwork with Panda Document Management
+* [ ] **Website Builder:** Creating secure and fast Panda Landing Pages in static HTML and JS
+* [ ] **CMS:** Writing publications in teams via Panda Editorial Board & Panda's Site Creator
+* [ ] **ActivityPub:** Running booksellers associations using Panda Fediverse Social Networks
+* [ ] **Library:** Organizing titles and bibliographies in the Panda Book Catalog with ONIX & OPAC
+* [ ] **VLB:** Support for the Verzeichnis Lieferbarer Bücher (VLB) or Directory of Available Books
+* [ ] **Prices:** Keeping track of price changes through the VLB Price Reference Database for Austria and Germany
+* [ ] **Search:** Integration of [buchhandel.de], the public VLB search platform for books in Austria and Germany
+* [ ] **SCM:** Planning warehouse logistics with VLB and dispatch lists through the Panda Supply Chain Management
+* [ ] **CRM:** Simplifying online marketing, newsletter administration & guest care via Panda Customer Management
+* [ ] **Accounting:** Maintaining control over all business assets and finances with the [Panda Accounting Suite]
+* [ ] **Customizations:** Connecting APIs with [Pipedream] and fulfilling your wishes with Panda Custom Solutions
+* [ ] **ERP:** Controlling the warehouse with Panda Merchandise Management and Panda Enterprise Resource Planning
+* [ ] **HRM:** Coordinating working hours, shifts, and responsibilities of co-workers & teams through Panda Staff
+* [ ] **Panda Stack:** Deploying Production (live), Staging (beta) and Testing Environments for CI/CD integration
+* [ ] **Support:** Assisting with Online Discussion Boards, Documentation & Tutorials, Live Trainings or Webinars
 
-1. Create a new project:
-   ```sh
-   $ composer create-project roots/bedrock
-   ```
-2. Update environment variables in the `.env` file. Wrap values that may contain non-alphanumeric characters with quotes, or they may be incorrectly parsed.
+[buchhandel.de]: https://www.buchhandel.de/suche "VLB Public Research Platform"
+[Panda Accounting Suite]: https://www.invoiceninja.org/ "Powered by Invoice Ninja"
+[Pipedream]: https://github.com/PipedreamHQ/pipedream#readme "Pipedream Integration Platform"
 
-- Database variables
-  - `DB_NAME` - Database name
-  - `DB_USER` - Database user
-  - `DB_PASSWORD` - Database password
-  - `DB_HOST` - Database host
-  - Optionally, you can define `DATABASE_URL` for using a DSN instead of using the variables above (e.g. `mysql://user:password@127.0.0.1:3306/db_name`)
-- `WP_ENV` - Set to environment (`development`, `staging`, `production`)
-- `WP_HOME` - Full URL to WordPress home (https://example.com)
-- `WP_SITEURL` - Full URL to WordPress including subdirectory (https://example.com/wp)
-- `AUTH_KEY`, `SECURE_AUTH_KEY`, `LOGGED_IN_KEY`, `NONCE_KEY`, `AUTH_SALT`, `SECURE_AUTH_SALT`, `LOGGED_IN_SALT`, `NONCE_SALT`
-  - Generate with [wp-cli-dotenv-command](https://github.com/aaemnnosttv/wp-cli-dotenv-command)
-  - Generate with [our WordPress salts generator](https://roots.io/salts.html)
+## Contributing
 
-3. Add theme(s) in `web/app/themes/` as you would for a normal WordPress site
-4. Set the document root on your webserver to Bedrock's `web` folder: `/path/to/site/web/`
-5. Access WordPress admin at `https://example.com/wp/wp-admin/`
+All contributions are beautiful! We welcome all kind of assistance.
 
-## Bedrock sponsors
+The **Panda Platform** is being primarily developed and maintained
+by Pablo Hörtner for Panda IT Solutions, together with [argo coop]
+- and with contributions from the community. Just join us now! :-)
 
-Help support our open-source development efforts [becoming a GitHub sponsor](https://github.com/sponsors/roots) or [patron](https://www.patreon.com/rootsdev).
+Like many other projects nowadays Panda IT Solutions and argo have
+a [Code of Conduct] (CoC) comparable to the old days' [Netiquette].
 
-<a href="https://k-m.com/"><img src="https://cdn.roots.io/app/uploads/km-digital.svg" alt="KM Digital" width="200" height="150"></a> <a href="https://carrot.com/"><img src="https://cdn.roots.io/app/uploads/carrot.svg" alt="Carrot" width="200" height="150"></a> <a href="https://www.c21redwood.com/"><img src="https://cdn.roots.io/app/uploads/c21redwood.svg" alt="C21 Redwood Realty" width="200" height="150"></a> <a href="https://wordpress.com/"><img src="https://cdn.roots.io/app/uploads/wordpress.svg" alt="WordPress.com" width="200" height="150"></a> <a href="https://pantheon.io/"><img src="https://cdn.roots.io/app/uploads/pantheon.svg" alt="Pantheon" width="200" height="150"></a>
+The project is licensed under the [GNU AGPL][agpl] (Version 3.0 or
+later). Code may only be used in compliance with this license, and
+we kindly ask you to read both the AGPL license and the CoC before
+contributing to this project. For details [see below](#️licensing).
 
-## Community
+**Happy hacking!** 💜🤓
 
-Keep track of development and community news.
+[code of conduct]: code_of_conduct.md "Contributor Covenant Code of Conduct"
+[Netiquette]: https://tools.ietf.org/html/rfc1855 "Netiquette Guidelines from October 1995"
+[agpl]: https://www.gnu.org/licenses/agpl-3.0.html "GNU Affero General Public License"
+[argo coop]: https://argo.coop "argo IT eG · Austrian IT Coop"
 
-- Join us on Roots Slack by becoming a [GitHub sponsor](https://github.com/sponsors/roots) or [patron](https://www.patreon.com/rootsdev)
-- Participate on the [Roots Discourse](https://discourse.roots.io/)
-- Follow [@rootswp on Twitter](https://twitter.com/rootswp)
-- Read and subscribe to the [Roots Blog](https://roots.io/blog/)
-- Subscribe to the [Roots Newsletter](https://roots.io/subscribe/)
+## TODOs
+
+* [ ] Add features described above as plugins and via WP-CLI
+  * [x] Static Site Builder
+  * [ ] ActivityPub
+  * [x] CMS Creator
+  * [x] WooCommerce
+  * [x] ONIX Import
+  * [x] CRM
+  * [x] Newsletter management
+  * [x] ERP
+  * [ ] DMS
+  * [ ] Accounting
+  * [ ] HRM
+* [x] Rename `README.md` title to **NEXT GENERATION E-COMMERCE PLATFORM**
+  * [ ] Explain markdown and new generation e-commerce
+  * [ ] Explain separation of content and presentation
+  * [ ] Explain micro-services and dependency management
+  * [ ] Explain automation, clouds, CI/CD, CDN, etc.
+* [x] Move Panda Docs to <https://github.com/pandainfo/community>
+* [ ] Include Panda Core docs
+* [ ] Add `.env` to GitHub secrets
+* [x] Create WP instances
+  * [ ] https://radicalbookstore.name/
+  * [ ] https://shop.radicalbookstore.com/
+* [x] Create deploy GitHub Actions for
+  * [ ] development
+  * [ ] staging
+  * [ ] production
+* [x] Deploy to Hetzner via sftp
+
+## Authors
+
+* **Pablo Hörtner** - _Initial work_ - [🐼 Team panda!](https://github.com/orgs/pandainfo/teams/panda)
+
+See also the [AUTHORS.md](AUTHORS.md) file and the [full list of contributors](https://github.com/pandainfo/panda-beta/contributors) who participated in this project.
+
+## Licensing
+
+    PANDA – NEXT GENERATION E-COMMERCE PLATFORM
+    COPYRIGHT (c) 2022  PABLO HÖRTNER <REDTUX@PM.ME>
+
+Unless explicitly noted otherwise, all the content on this site is released under the following terms.
+For further information see [copyright]. For other licenses of third parties see this [NOTICE](NOTICE).
+
+[copyright] https://pandainfo.github.io/community/copyright/ "Panda Copyright"
+
+**Panda** is Free Software. You can redistribute it and/or modify it under the terms of
+the **GNU Affero General Public License** as published by the Free Software Foundation,
+either version 3 of the License, or at your option any later version: AGPL-3.0-or-later
+
+    This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY;
+    without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+    See the GNU Affero General Public License for more details.
+
+You may obtain a copy of the License [here](COPYING) or at
+
+    https://www.gnu.org/licenses/agpl-3.0.html
