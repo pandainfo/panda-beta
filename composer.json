@@ -42,6 +42,7 @@
     "wpackagist-plugin/fluentforms-pdf":"^1.1",
     "wpackagist-plugin/manage-notification-emails":"^1.8",
     "wpackagist-plugin/oauth-client-for-user-authentication":"^3.0",
+    "wpackagist-plugin/pdfjs-viewer-shortcode":"^2.1",
     "wpackagist-plugin/woocommerce":"^6.6",
     "wpackagist-plugin/wordpress-importer":"^0.7",
     "wpackagist-theme/ecommerce-wp": "^1.0",
